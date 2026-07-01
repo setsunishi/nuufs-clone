@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* ページトップへのスクロール
+----------------------------------------------*/
+#page-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index:300;
+}
+
+#page-top img{
+	cursor:pointer;
+	opacity:0.8;
+}
+
+#page-top img:hover{
+	opacity:1;
+}
+
